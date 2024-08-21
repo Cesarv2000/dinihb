@@ -217,6 +217,12 @@ body {
 	height: auto;
 }
 
+.banner-main-altaespec img {
+	float: right;
+	margin: 45px 0px;
+	height: auto;
+}
+
 .banner-main-team img {
 	float: right;
 	margin: 45px 0px;
@@ -346,13 +352,13 @@ body {
 .heading h1, .heading2 h1, .heading3 h1, .heading4 h1, .heading5 h1 {
 	margin: 0 10px;
 	font-weight: 600;
-	font-size: 52px;
+	font-size: 40px;
 }
 .heading4 {	border-left: 4px solid #59A52C; }
 .heading4 h1 {
 	margin: 0 10px;
 	font-weight: 600;
-	font-size: 24px;
+	font-size: 52px;
 }
 .heading p, .heading2 p, .heading3 p, .heading4 p, .heading5 p {
 	margin: 0 10px;
@@ -1065,3 +1071,4 @@ textarea.form-control {	height:135px; }
 	.gallery_title h3 { font-size: 40px; }
 	.gallery_title h4 { font-size: 18px; }
 }
+
