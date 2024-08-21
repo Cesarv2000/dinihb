@@ -142,28 +142,6 @@ http://www.templatemo.com/tm-478-accord
                             </div>
                         </div>
                         <a href="javascript:makePDF()" class="btn btn-danger btn-sm"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar</a>
-                        <script type="text/javascript">
-                            function makePDF() {
-                                window.jsPDF = window.jspdf.jsPDF;
-                                const doc = new jsPDF();
-                                var img = new Image();
-                                img.src = "images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-1.png"
-                                doc.addImage(img, "png", 0, 80, 200, 100)
-                                pdf.addPage();
-                                img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-2.png'
-                                pdf.addImage(img, 'png', 0, 80, 200, 150)
-                                pdf.addPage();
-                                img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-3.png'
-                                pdf.addImage(img, 'png', 0, 80, 200, 150)
-                                pdf.addPage()
-                                img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-4.png'
-                                pdf.addImage(img, 'png', 0, 80, 200, 100)
-                                pdf.addPage();
-                                img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-5.png'
-                                pdf.addImage(img, 'png', 0, 80, 200, 150)
-                                doc.save("equiposaltaespecificacion.pdf");
-                            }
-                        </script>
                         <!-- row -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -222,6 +200,28 @@ http://www.templatemo.com/tm-478-accord
             </footer>  <!-- .row -->               
         </div>
     </div>
+    <script type="text/javascript">
+        function makePDF() {
+            window.jsPDF = window.jspdf.jsPDF;
+            const doc = new jsPDF();
+            var img = new Image();
+            img.src = "images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-1.png"
+            doc.addImage(img, "png", 0, 80, 200, 100)
+            pdf.addPage();
+            img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-2.png'
+            pdf.addImage(img, 'png', 0, 80, 200, 150)
+            pdf.addPage();
+            img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-3.png'
+            pdf.addImage(img, 'png', 0, 80, 200, 150)
+            pdf.addPage()
+            img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-4.png'
+            pdf.addImage(img, 'png', 0, 80, 200, 100)
+            pdf.addPage();
+            img.src = 'images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-5.png'
+            pdf.addImage(img, 'png', 0, 80, 200, 150)
+            doc.save("equiposaltaespecificacion.pdf");
+        }
+    </script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
