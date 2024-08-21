@@ -147,6 +147,50 @@ http://www.templatemo.com/tm-478-accord
                                 </div>
                             </div>
                         </div>
+                        <a href="javascript:makePDF()" class="btn btn-danger btn-sm"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar</a>
+                        <script type="text/javascript">
+                            function makePDF() {
+                                window.jsPDF = window.jspdf.jsPDF;
+                                const doc = new jsPDF();
+                                var img = new Image();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-01.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 100)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-02.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-03.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage()
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-04.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 100)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-05.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-06.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage()
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-07.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 100)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-08.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-09.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage()
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-10.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 100)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-11.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                pdf.addPage();
+                                img.src = 'images/brochuredini/BROCHURE DINI/BROCHURE DINI-12.png'
+                                pdf.addImage(img, 'png', 0, 80, 200, 150)
+                                doc.save("brochure.pdf");
+                            }
+                        </script>
                         <!-- row -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
