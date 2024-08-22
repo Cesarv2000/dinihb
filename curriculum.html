@@ -141,7 +141,6 @@ http://www.templatemo.com/tm-478-accord
                                 </div>
                             </div>
                         </div>
-                        <a href="javascript:makePDF()" class="btn btn-danger btn-sm"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descargar</a>
                         <!-- row -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -224,39 +223,10 @@ http://www.templatemo.com/tm-478-accord
             </footer>  <!-- .row -->              
         </div>
     </div>
-    <script type="text/javascript">
-        function makePDF() {
-            window.jsPDF = window.jspdf.jsPDF;
-            const doc = new jsPDF();
-            var img = new Image();
-            img.src = 'images/curriculum/HB CURRICULUM CORPORATIVO-1.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage();
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-2.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage();
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-3.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage()
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-4.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage();
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-5.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage();
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-6.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage()
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-7.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            pdf.addPage();
-            img.src = 'images/curriculum/curriculum/HB CURRICULUM CORPORATIVO-8.png'
-            pdf.addImage(img, 'png', 0, 0, 210, 300)
-            doc.save("curriculum.pdf");
-        }
-    </script>
+
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
+

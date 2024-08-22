@@ -201,31 +201,31 @@ body {
 }
 .banner-main-home img {
 	float: right;
-	margin: 45px 0px;
+	margin: 90px 0px;
 	height: auto;
 }
 
 .banner-main-curriculum img {
 	float: right;
-	margin: 45px 0px;
+	margin: 20px 0px;
 	height: auto;
 }
 
 .banner-main-brochure img {
 	float: right;
-	margin: 45px 0px;
+	margin: 20px 0px;
 	height: auto;
 }
 
 .banner-main-altaespec img {
 	float: right;
-	margin: 45px 0px;
+	margin: 20px 0px;
 	height: auto;
 }
 
 .banner-main-team img {
 	float: right;
-	margin: 45px 0px;
+	margin: 20px 0px;
 	height: auto;
 }
 
@@ -291,7 +291,7 @@ body {
 
 .banner-main-about img, .banner-main-team img, .banner-main-brochure img, .banner-main-curriculum img, .banner-main-altaespec img {
 	float: right;
-	margin: 45px 0px;
+	margin: 20px 0px;
 }
 
 .carousel-control.left,
@@ -339,7 +339,13 @@ body {
 	padding-right: 0px;
 	text-transform: uppercase;
 }
-.heading, .heading2, .heading3, .heading4, .heading5 {
+.heading {
+	float: left;
+	width: 100%;
+	margin: 60px 0px;
+}
+
+.heading2, .heading3, .heading4, .heading5 {
 	float: left;
 	width: 100%;
 	margin: 10px 0px;
@@ -360,9 +366,14 @@ body {
 	font-weight: 600;
 	font-size: 52px;
 }
-.heading p, .heading2 p, .heading3 p, .heading4 p, .heading5 p {
+.heading p {
 	margin: 0 10px;
-	font-size: 24px;
+	font-size: 25px;
+	font-weight: 600;
+}
+.heading2 p, .heading3 p, .heading4 p, .heading5 p {
+	margin: 0 10px;
+	font-size: 42px;
 	font-weight: 600;
 }
 .heading p { color: #0e526f; }
@@ -846,7 +857,7 @@ textarea.form-control {	height:135px; }
 	background-color:#000;
 }
 
-#google-map { height: 435px; }
+#google-map { height: 100px; }
 
 .modal-dialog {
 	width: 300px;
@@ -1006,11 +1017,11 @@ textarea.form-control {	height:135px; }
 		display:block;
 	}
 	.desc2 ul {	display: block;	}
-	.heading, .heading2, .heading3, .heading4 { margin: 15px 0px;	}
+	.heading, .heading2, .heading3, .heading4, .heading5 { margin: 15px 0px;	}
 	.carousel { min-height: auto; }
 	
-	.heading h1, .heading2 h1, .heading3 h1, .heading4 h1 {	font-size: 46px; }
-	.heading p, .heading2 p, .heading3 p, .heading4 p { font-size: 15px; }
+	.heading h1, .heading2 h1, .heading3 h1, .heading4 h1, .heading5 h1 {	font-size: 36px; }
+	.heading p, .heading2 p, .heading3 p, .heading4 p, .heading5 p { font-size: 25px; }
 	
 	.content-main {
 		padding-left: 0;
@@ -1031,6 +1042,15 @@ textarea.form-control {	height:135px; }
 	.banner-main-about img, .banner-main-team img, .banner-main-brochure img, .banner-main-curriculum img, .banner-main-altaespec img {
 		float: none;
 		padding-top: 50px;
+	}
+
+	.contact_info {
+		font-size: 12px;
+		font-style: italic;
+		font-weight: bold;
+		line-height: 25px;
+		margin-left: 5px;
+		margin-bottom: 5px;
 	}
 }
 @media (max-width: 550px) {
@@ -1071,5 +1091,6 @@ textarea.form-control {	height:135px; }
 	.gallery_title h3 { font-size: 40px; }
 	.gallery_title h4 { font-size: 18px; }
 }
+
 
 

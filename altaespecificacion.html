@@ -189,32 +189,12 @@ http://www.templatemo.com/tm-478-accord
             </footer>  <!-- .row -->               
         </div>
     </div>
-
-    <h1>Crear Archivos PDF</h1>
-    <br>
-    
-    <input type="text" placeholder="Escribeme" id="esc"><br><br>
-    <a href="javascript:genPDF()">Crear pdf</a>
-    <a href="javascript:makePDF()">Descargar pdf</a>
-    <script type="text/javascript">
-        function makePDF() {
-            window.jsPDF = window.jspdf.jsPDF;
-            const doc = new jsPDF();
-            var img = new Image();
-
-            img.src = "images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-1.png"
-            doc.addImage(img, "png", 0, 80, 200, 100)
-            pdf.addPage();
-            img.src = "images/altaespecificacion/EQUIPOS DE ALTA ESPECIFICACION-2.png"
-            doc.addImage(img, "png", 0, 80, 200, 150)
-            doc.save("a4.pdf");
-        }
-    </script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
 
 </body>
 </html>
+
 
 
