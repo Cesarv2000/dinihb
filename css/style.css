@@ -150,7 +150,7 @@ body {
 }
 
 .about-main, .team-main .brochure-main, .curriculum-main, .altaespec-main { padding-left: 0; }
-.about, .team, .brochure, .curriculum, .altaespec { background-color: rgba(219, 136, 48,0.8);	}
+.about, .team, .brochure, .curriculum, .altaespec, .gallery { background-color: rgba(219, 136, 48,0.8);	}
 
 .cards {
 	display: -webkit-box;
@@ -172,7 +172,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.contact { background-color: rgba(14, 82, 111,0.8);	}
+.contact, .home { background-color: rgba(14, 82, 111,0.8);	}
 
 .about i, .contact i {
 	float: left;
@@ -289,7 +289,19 @@ body {
     background-position: bottom right;
 }
 
-.banner-main-about img, .banner-main-team img, .banner-main-brochure img, .banner-main-curriculum img, .banner-main-altaespec img {
+.banner-main-gallery {
+	float: left;
+    width: 100%;
+    background-image: url(../images/banner-bg-about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 7px solid #3D518C;
+    min-height: 320px;
+    background-color: white;
+    background-position: bottom right;
+}
+
+.banner-main-about img, .banner-main-team img, .banner-main-brochure img, .banner-main-curriculum img, .banner-main-altaespec img, .banner-main-gallery img {
 	float: right;
 	margin: 20px 0px;
 }
@@ -713,7 +725,7 @@ body {
 .gallery_main,
 .contact-content {
 	background-color: #fff;
-	border-top: 5px solid #19beb6;	
+	border-top: 5px solid #3D518C;	
 	width: auto;
 	overflow: hidden;
 }
@@ -725,7 +737,7 @@ body {
 
 .gallery_title {
 	width: auto;
-	border-left: 4px solid #19beb6;
+	border-left: 4px solid #3D518C;
 	padding-left: 20px;
 	margin-bottom: 40px;
 }
@@ -737,7 +749,7 @@ body {
 .gallery_title h4 {
 	font-size: 25px;
 	font-weight: bold;
-	color: #19beb6;
+	color: #3D518C;
 	margin-top: 0;
 	text-transform: uppercase;
 }
@@ -800,8 +812,14 @@ body {
 .twitter_icon {	background-color:#1abfdf; }
 .twitter_icon:hover, .twitter_icon:focus { background-color: #0C98B3; }
 
-.facebook_icon { background-color:#527ebf; }
-.facebook_icon:hover, .facebook_icon:focus { background-color: #2B538D; }
+.facebook_icon { background-color:#2B538D; }
+/*.facebook_icon:hover, .facebook_icon:focus { background-color: #2B538D; }*/
+
+.instagram_icon {background: linear-gradient(45deg, #405DE6, #5B51D8, #FD1D1D, #FCAF45, #FFDC80); }
+/*.instagram_icon:hover, .instagram_icon:focus { background-color: #405DE6; }*/
+
+.linkedin_icon { background-color:#007bb6; }
+/*.linkedin_icon:hover, .linkedin_icon:focus { background-color: #405DE6; }*/
 
 .form-group { margin-bottom: 25px; }
 .form-control {
@@ -880,6 +898,25 @@ textarea.form-control {	height:135px; }
 }
 .box img { width: 100%;	}
 .about_box_line { max-width: 410px; }
+
+
+.mapouter { 
+	position:relative;
+	text-align:right;
+	width:900px;
+	height:500px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	width:900px;
+	height:500px;
+}
+.gmap_iframe {
+	width:900px!important;
+	height:500px!important;
+} 
 
 @media screen and (max-width: 1199px) and (min-width: 992px) {
 	
@@ -1052,6 +1089,24 @@ textarea.form-control {	height:135px; }
 		margin-left: 5px;
 		margin-bottom: 5px;
 	}
+
+	.mapouter { 
+		position:relative;
+		text-align:right;
+		width:320px;
+		height:500px;
+	}
+	
+	.gmap_canvas {
+		overflow:hidden;
+		background:none!important;
+		width:320px;
+		height:500px;
+	}
+	.gmap_iframe {
+		width:320px!important;
+		height:500px!important;
+	} 
 }
 @media (max-width: 550px) {
 
@@ -1091,6 +1146,7 @@ textarea.form-control {	height:135px; }
 	.gallery_title h3 { font-size: 40px; }
 	.gallery_title h4 { font-size: 18px; }
 }
+
 
 
 
